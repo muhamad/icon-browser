@@ -1,0 +1,54 @@
+{
+    "CommonCss":
+    [
+        "style.css"
+    ],
+
+    "Packages":
+    [
+        {
+            "Name": "Material icons",
+            "Version": "3.0.1",
+            "URL": "https://material.io/icons/",
+            "Location": "material-icons-3.0.1/",
+            "IconMaps": [ "map.json" ],
+            "Css": [ "css/material-icons.css" ]
+        },
+
+		{
+			"Name": "Ionic Framework",
+			"Version": "2.0.0",
+			"URL": "http://ionicons.com/",
+            "Location": "ionicons-2/",
+			"IconMaps": [ "map.json" ],
+			"Css": [ "css/ionicons.min.css" ]
+		},
+
+		{
+			"Name": "Bootstrap 3",
+			"Version": "3.3.7",
+			"URL": "http://glyphicons.com/",
+            "Location": "bootstrap-3/",
+			"IconMaps": [ "map.json" ],
+			"Css": [ "css/glyphicons-halflings.css" ]
+		},
+
+		{
+			"Name": "Font Awesome",
+			"Version": "4.7.0",
+			"URL": "http://fontawesome.io/",
+            "Location": "font-awesome-4.7/",
+			"IconMaps": [ "map.json" ],
+			"Css":[ "css/font-awesome.min.css" ]
+		},
+
+		{
+			"Name":"Weather Icons",
+			"Version": "2.0.10",
+			"URL": "http://weathericons.io",
+            "Location":"weather-icons-2.0.10/",
+			"IconMaps": [ "map.json" ],
+			"Css":[ "css/weather-icons.min.css" ]
+		}
+    ]
+}

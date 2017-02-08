@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Icon Browser</title>
+        <link rel="icon" type="image/png" href="favicon.png" />
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    </head>
+    <body>
+        <div class="container-fluid">
+            <h1>Icon Browser</h1>
+            <a href="https://github.com/muh00mad/icon-browser/">Go to the project.</a>
+            <p class="lead">This application lets you browse preconfigured icon packages and search throw them, for more information on how to add a package see ReadMe.md</p>
+            <p class="lead">To explore package icons click the next tabs, and to see more information about loaded packages <a data-toggle="modal" data-backdrop="static" data-keyboard="false" href="#loadedPackage">click here</a></p>
+
+            <div class="col-md-6" style="padding: 0px">
+                <div class="input-group">
+                    <input type="text" class="form-control" id="txtSearch" placeholder="Input part-of/all-of icon name or clear the input to get all icons" onkeyup="if(event.keyCode==13)Store.search();">
+                    <span class="input-group-btn">
+                        <button class="btn btn-primary" type="button" onclick="Store.search();"><i class="fa fa-search"></i></button>
+                    </span>
+                </div>
+            </div>
+
+            <br />
+            <nav class="nav nav-pills flex-column flex-sm-row tabHeader"></nav>
+            <div class="tab-content tabDetails" role="navigation"></div>
+
+            <div id="loadedPackage" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header dialog-header">
+                        <h6 class="modal-title">Loaded Packages</h6>
+                    </div>
+                    <div id="packages" class="modal-body" role="tablist">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+        <script src="js/render.js"></script>
+    </body>
+</html>

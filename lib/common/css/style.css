@@ -1,0 +1,60 @@
+.icon-constainer {
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.icon-constainer .glyphicon-class {
+    display: block;
+    text-align: center;
+    word-wrap: break-word;
+}
+.icon-constainer li {
+    float: left;
+    width: 10%;
+    height: 115px;
+    padding: 10px;
+    font-size: 13px;
+    line-height: 1.4;
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 1px solid #fff;
+}
+.icon-constainer li:hover {
+    color: #fff;
+    background-color: #563d7c;
+}
+.icon-constainer li .icon {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.hide {
+    display: none !important
+}
+
+.dialog-header {
+    background-color: #337ab7 !important;
+    color: white !important;
+}
+
+.card-header{
+    padding: .50rem 1rem !important;
+}
+
+.card .card-block {
+    padding: .25rem !important;
+}
+
+.card .container {
+    margin: 15px !important;
+}
+
+::-webkit-input-placeholder {
+    color: gray !important;
+    opacity:  0.5 !important;
+}
+::-moz-placeholder {
+    color: gray !important;
+    opacity:  0.5 !important;
+}
